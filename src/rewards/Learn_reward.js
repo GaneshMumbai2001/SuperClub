@@ -32,7 +32,7 @@ const rewardsData = [
 function GamifiedChallenges() {
   const [completedChallenges, setCompletedChallenges] = useState([]);
   const [unlockedRewards, setUnlockedRewards] = useState([]);
-
+  const [rewardsEarned, setRewardsEarned] = useState(0);
 
   const completeChallenge = (challengeId) => {
     if (!completedChallenges.includes(challengeId)) {
@@ -45,6 +45,10 @@ function GamifiedChallenges() {
         setUnlockedRewards([...unlockedRewards, unlockedReward]);
       }
     }
+  };
+
+  const handleEarnClick = () => {
+    setRewardsEarned(rewardsEarned + 1);
   };
 
   return (
@@ -72,6 +76,11 @@ function GamifiedChallenges() {
           </li>
         ))}
       </ul>
+      <div>
+        <button onClick={handleEarnClick}>Earn</button>
+        <p>You have earned: {rewardsEarned} points.</p>
+        <p>File: <a href="/path-to-reward-file.pdf" download>Download Reward</a></p>
+      </div>
     </div>
   );
 }
