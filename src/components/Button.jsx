@@ -1,10 +1,9 @@
-import React from 'react';
 
 const Button = ({ children, onClick, disabled }) => {
   return (
     <button
       onClick={onClick}
-      className={`bg-blue-500 px-4 py-3 rounded-lg text-white ${
+      className={`bg-violet-200 hover:bg-white px-1 py-1 rounded-lg text-violet ${
         disabled ? 'opacity-50' : ''
       }`}
       disabled={disabled}
@@ -15,3 +14,4 @@ const Button = ({ children, onClick, disabled }) => {
 };
 
 export default Button;
+

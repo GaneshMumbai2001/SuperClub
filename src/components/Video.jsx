@@ -27,7 +27,7 @@ const Video = ({ peerId, track }) => {
         }
       };
       videoObj.onerror = () => {
-        console.error('videoCard() | Error is hapenning...');
+        console.error('videoCard() | Error is happenning...');
       };
     }
   }, [state.context.consumers]);
