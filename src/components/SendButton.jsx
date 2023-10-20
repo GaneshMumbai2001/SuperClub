@@ -10,7 +10,7 @@ const SendButton = ({ event, disabled }) => {
   return (
     <div>
       <Button disabled={disabled} onClick={() => send(event)}>
-        {event}
+      {event}
       </Button>
     </div>
   );
