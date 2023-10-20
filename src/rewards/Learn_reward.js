@@ -33,12 +33,11 @@ function GamifiedChallenges() {
   const [completedChallenges, setCompletedChallenges] = useState([]);
   const [unlockedRewards, setUnlockedRewards] = useState([]);
 
-  // Function to mark a challenge as completed
+
   const completeChallenge = (challengeId) => {
     if (!completedChallenges.includes(challengeId)) {
       setCompletedChallenges([...completedChallenges, challengeId]);
 
-      // Check for unlocked rewards
       const unlockedReward = rewardsData.find(
         (reward) => reward.id === challengeId
       );

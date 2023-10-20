@@ -2,6 +2,7 @@
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import About from './About';
+import challengesData from './reward'
 
 
 const HeroSection = () => {
@@ -21,11 +22,11 @@ const HeroSection = () => {
         </div>
       <p className='text-[#ADB7BE] md:text-base lg:text-5-xl mb-10 xl:lg:text-5xl mt-52'>
       Speak Freely, Earn Seamlessly.
-       Your Voice , Your Rewards!
+      Your Voice , Your Rewards!
         </p>
         <div>
           <button className='md:px-10 py-1.5  font-bold rounded-lg  mr-4 bg-gradient-to-br from-blue-400 to-blue-600 hover:bg-slate-200 text-white items-center'>Earn</button> 
-           
+          
         </div>
         </div>
 
