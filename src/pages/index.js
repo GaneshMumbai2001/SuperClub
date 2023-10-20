@@ -22,7 +22,7 @@ const HeroSection = () => {
         <div>
           <button className='px-12 py-3.5 w-full xl:lg:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-200 via-sky-500 to-pink-500 hover:bg-slate-200 text-white '>Earn</button>
           
-          < button className='px-5 py-3 w-full xl:lg:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-200 via-sky-500 to-pink-500 hover:bg-slate-200 text-white '>ConnectButton</button>
+          < button className='px-5 py-3.5 w-full xl:lg:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-200 via-sky-500 to-pink-500 hover:bg-slate-200 text-white '>ConnectButton</button>
         </div>
         </div>
    
