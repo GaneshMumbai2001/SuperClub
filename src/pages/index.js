@@ -1,8 +1,7 @@
 "use client"
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import About from './About';
-import challengesData from './reward'
+import Link from 'next/link';
 
 
 const HeroSection = () => {
@@ -24,12 +23,10 @@ const HeroSection = () => {
       Speak Freely, Earn Seamlessly.
       Your Voice , Your Rewards!
         </p>
-        <div>
-          <button className='md:px-10 py-1.5  font-bold rounded-lg  mr-4 bg-gradient-to-br from-blue-400 to-blue-600 hover:bg-slate-200 text-white items-center'>Earn</button> 
+   
+          <Link href="./reward.js" className='md:px-10 py-2  font-bold rounded-lg  mr-4 bg-gradient-to-br from-blue-400 to-blue-600 hover:bg-slate-200 text-white items-center '>Earn</Link> 
           
         </div>
-        </div>
-
         </div>
     </section>
   );

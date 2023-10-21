@@ -8,3 +8,4 @@ const challengesData =() =>{
         </div>
     )
 }
+export default challengesData;

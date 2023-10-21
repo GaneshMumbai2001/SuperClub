@@ -79,7 +79,8 @@ function GamifiedChallenges() {
       <div>
         <button onClick={handleEarnClick}>Earn</button>
         <p>You have earned: {rewardsEarned} points.</p>
-        <p>File: <a href="/path-to-reward-file.pdf" download>Download Reward</a></p>
+        <p>File: <a href="/path-to-reward-file.pdf" download>Download Reward</a>
+        </p>
       </div>
     </div>
   );
